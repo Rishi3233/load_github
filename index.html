@@ -1,0 +1,44 @@
+<!-- {% block head %}
+
+<title> Calculator </title>
+<link rel="stylesheet" href="{{url_for('static', filename= 'css/style.css')}}">
+{%endblock %}
+{%block body%}
+
+<div class = "content">
+    <h1 style="text-align: center">Calculator</h1>
+    <div class="form">
+        <form action="/math" method="POST">
+            <label for="operation">choose a mathematical operation</label>
+
+<select id="operation" name="operation">
+    <option value="add">add</option>
+    <option value="multiply">multiply</option>
+    <option value="subtract">subtract</option>
+    <option value="divide">divide</option>
+</select>
+ 
+              <input type="text" name="num1" id="num1">
+              <input type="text" name="num2" id="num2">
+              <input type="submit" value="calculate">
+        </form>
+    </div>
+     -->
+
+     <!DOCTYPE html>
+     <html lang="en">
+     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Review page</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="{{url_for('static', filename= 'css/style.css')}}">
+     </head>
+     <body>
+        <div class="table-users">
+            <div class="header">Calculation result</div>
+            {{result}}
+        </div>
+     </body>
+     </html>

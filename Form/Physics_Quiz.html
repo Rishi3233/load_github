@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz || welcoming you😃 || 2023</title>
+    <style>
+        body{
+            background-color: burlywood;
+        }
+        span{
+
+            color: red;
+        }
+
+
+ input[type=text],input[type=date],input[type=email],input[type=password],select,input[type=number]{
+    width: 100%;
+    padding: 12px 12px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+ }
+        input[type=submit]{
+            width: 100%;
+            background-color: green;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover{
+            background-color: #45a049;
+        }
+
+/* The container */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+ 
+    </style>
+</head>
+<body>
+<div class="myform">
+    <br>
+    <h1>Physics Quiz (By Rishu sir)------- </h1>
+    <p id="demo"></p>
+  
+    <form action="https://formspree.io/f/mzbqqykq" method="POST">
+        <label for="fname">Name <span>*</span></label>
+      <input type="text" name="name" id="fname" placeholder="full name" required>
+      <!-- <label for="dob">DOB <span>*</span></label>
+     <input type="date" name="" id="" required> -->
+     <!-- <label for="gender">Gender <span>*</span></label> -->
+      <!-- Male <input type="radio" name="gender" id="" > Female <input type="radio" name="gender" id="" required><br><br> -->
+      <!-- <label for="email">Email <span>*</span></label>
+    <input type="email" name="email" id="" placeholder="email" required>
+    <label for="password">Password <span>*</span></label>
+        <input type="password" name="password" id="" placeholder="new password" required>
+        <label for="confirm password">Confirm Password</label>
+        <input type="password" name="password" id=""placeholder="confirm password" required>
+        <label for="company">Goal <span>*</span></label>
+        <input type="text" name="" id="" placeholder="your view...."> -->
+        <h2>Q1.  Can a charge of 8 x 10^-18 C be a given to the body ?</h2>
+        <h3><label for="103">
+            <input type="radio" name="radio" id="103">Yes
+            <!-- <span class="checkmark"></span> -->
+        </label></h3>
+         <h3><label  for="101"> 
+            <input type="radio" name="radio" id="101">No
+            <!-- <span class="checkmark"></span> -->
+        </label></h3>
+          <h3><label  for="102"> 
+            <input type="radio" name="radio" id="102">Can't be judge
+            <!-- <span class="checkmark"></span> -->
+        </label></h3>
+          <h3><label for="104"> 
+            <input type="radio" name="radio" id="104">None of these
+            <!-- <span class="checkmark"></span> -->
+        </label></h3>
+
+          <h2>Q2. Where should we keep a third charge on line joining two charges(+Q and +4Q) such that third charge is in equilibrium.</h2>
+          <h3><label for="105">
+            <input type="radio"  name="radio1" id="105">Left to +Q
+            <!-- <span class="checkmark"></span> -->
+          </label></h3>
+         <h3><label for="106">
+            <input type="radio" name="radio1" id="106">Right to +4Q
+            <!-- <span class="checkmark"></span> -->
+          </label></h3>
+          <h3><label for="107">
+            <input type="radio" name="radio1" id="107">Between (+Q and +4Q) but close to +Q
+            <!-- <span class="checkmark"></span> -->
+          </label></h3>
+          <h3><label for="108">
+            <input type="radio" name="radio1" id="108">Between (+Q and +4Q) but close to +4Q
+            <!-- <span class="checkmark"></span> -->
+          </label></h3>
+
+          <h2>Q3. Electric field emerges from ?</h2>
+          <h3><label for="1">
+            <input type="radio" name="radio2" id="1">Positive
+            <!-- <span class="checkmark"></span> -->
+          </label></h3>
+          <h3><label for="2">
+            <input type="radio" name="radio2" id="2">Negative
+            <!-- <span class="checkmark"></span> -->
+          </label></h3>
+          <h3><label for="3">
+            <input type="radio" name="radio2" id="3">Both
+            <!-- <span class="checkmark"></span> -->
+          </label></h3>
+          <h3><label for="4">
+            <input type="radio" name="radio2" id="4">None of these
+            <!-- <span class="checkmark"></span> -->
+          </label></h3>
+
+          <h2>Q4. Electric field inside the conductor is ?</h2>
+          <h3><label for="5">
+            <input type="radio" name="radio3" id="5">positive
+            <!-- <span class="checkmark"></span> -->
+          </label></h3>
+          <h3><label for="6">
+            <input type="radio" name="radio3" id="6">Negative
+            <!-- <span class="checkmark"></span> -->
+          </label></h3>
+          <h3><label for="7">
+            <input type="radio" name="radio3" id="7">Zero
+            <!-- <span class="checkmark"></span> -->
+          </label></h3>
+          <h3><label for="8">
+            <input type="radio" name="radio3" id="8">None of these
+            <!-- <span class="checkmark"></span> -->
+          </label></h3>
+
+          <h2>Q5. The value of k ?</h2>
+          <h3><label for="9">  
+            <input type="radio"  name="radio4" id="9">9 x 10^9 
+            <!-- <span class="checkmark"></span> -->
+          </label></h3>
+          <h3><label for="10">
+            <input type="radio" name="radio4" id="10">9 x 10^-9  
+            <!-- <span class="checkmark"></span> -->
+          </label></h3>
+          <h3><label for="11">
+            <input type="radio" name="radio4" id="11">9 x 10^-11
+            <!-- <span class="checkmark"></span> -->
+          </label></h3>
+          <h3><label for="12">
+            <input type="radio" name="radio4" id="12">9 x 10^+11
+            <!-- <span class="checkmark"></span> -->
+          </label></h3>
+
+          <h2>Q6. Torque is maximum at theta ?</h2>
+          <h3><label for="13">
+            <input type="radio" name="radio5" id="13">0 degree
+            <!-- <span class="checkmark"></span> -->
+          </label></h3>
+          <h3><label for="14">
+            <input type="radio" name="radio5" id="14">180 degree
+            <!-- <span class="checkmark"></span> -->
+          </label></h3>
+          <h3><label for="15">
+            <input type="radio" name="radio5" id="15">90 degree
+            <!-- <span class="checkmark"></span> -->
+          </label></h3>
+          <h3><label for="16">
+            <input type="radio" name="radio5" id="16">45 degree
+            <!-- <span class="checkmark"></span> -->
+          </label></h3>
+
+          <h2>Q7. Two point charges +3Q and -4Q are placed at B and C of an equilateral triangle ABC of side 'a' as given in the figure. Find the magnitude of electric field ?</h2>
+         <pre>     <img src="https://drive.google.com/uc?export=view&id=1syxwgndH3SnNdR96T3gkb_7RC9iadwNV" alt=""></pre> 
+          <h3><label for="17">
+            <input type="radio" name="radio6" id="17">2kQ/a^2
+            <!-- <span class="checkmark"></span> -->
+          </label></h3>
+          <h3><label for="18">
+            <input type="radio" name="radio6" id="18">2kQ√13/a^2
+            <!-- <span class="checkmark"></span> -->
+          </label></h3>
+          <h3><label for="19">
+
+            <input type="radio" name="radio6" id="19">kQ√13/a^2
+            <!-- <span class="checkmark"></span> -->
+          </label></h3>
+          <h3><label for="20">
+            <input type="radio" name="radio6" id="20">None of these
+            <!-- <span class="checkmark"></span> -->
+          </label></h3>
+
+          <h2>Q8. Electric field is (1) Perpendicular to conductor (2) Perpendicular to charge?</h2>
+          <h3><label for="21">   
+            <input type="radio" name="radio71" id="21">(1) True and (2) False 
+            <!-- <span class="checkmark"></span> -->
+          </label></h3>
+          <h3><label for="22">
+            <input type="radio" name="radio71" id="22">(1) False and (2) True   
+            <!-- <span class="checkmark"></span> -->
+          </label></h3>
+          <h3><label for="23">
+            <input type="radio" name="radio71" id="23">(1) False and (2) False    
+            <!-- <span class="checkmark"></span> -->
+          </label></h3>
+          <h3><label for="24">
+            <input type="radio" name="radio71" id="24">(1) True and (2) True    
+            <!-- <span class="checkmark"></span> -->
+          </label></h3>
+
+          <h2>Q9. The value of electric permittivity of free space is </h2>
+           <h3><label for="25">
+             <input type="radio" name="radio7" id="25">9 × 10^9 NC2/m2
+             <!-- <span class="checkmark"></span> -->
+           </label></h3>
+           <h3><label for="26">
+             <input type="radio" name="radio7" id="26">8.85 × 10^–12 Nm2/C2 sec
+             <!-- <span class="checkmark"></span> -->
+           </label></h3>
+          <h3> <label for="27">
+ 
+             <input type="radio" name="radio7" id="27">8.85 × 10^–12 C2/Nm2
+             <!-- <span class="checkmark"></span> -->
+           </label></h3>
+           <h3><label for="28"> 
+             <input type="radio" name="radio7" id="28">9 × 10^9 C2/Nm2
+             <!-- <span class="checkmark"></span> -->
+           </label></h3>
+
+
+          <h2>Q10. Figure shows three point charges, +2q, -q and + 3q. Two charges +2q and -q are enclosed within a surface 'S'. What is the electric flux due to this configuration through the surface 'S' </h2>
+          <pre>     <img src="https://drive.google.com/uc?export=view&id=16yaII6-vRjZ1SRGFSgIbuCrmoc3z9ynr" alt=""></pre>
+          <h3><label for="29">
+            <input type="radio" name="radio8" id="29">Zero
+            <!-- <span class="checkmark"></span> -->
+          </label></h3>
+          <h3><label for="30">
+
+            <input type="radio" name="radio8" id="30">q/εo
+            <!-- <span class="checkmark"></span> -->
+          </label></h3>
+          <h3><label for="31">
+
+            <input type="radio" name="radio8" id="31">2q/εo
+            <!-- <span class="checkmark"></span> -->
+          </label></h3>
+          <h3><label for="32"> 
+            <input type="radio" name="radio8" id="32">None of these
+            <!-- <span class="checkmark"></span> -->
+          </label></h3>
+
+          <h2>Q11. Dimension of electric field ?</h2>
+          <h3><label for="33">
+            <input type="radio" name="radio9" id="33">[MLA^-1T^-3]
+            <!-- <span class="checkmark"></span> -->
+          </label></h3>
+          <h3><label for="34">
+
+            <input type="radio" name="radio9" id="34">[MLA^-1T^-2]
+            <!-- <span class="checkmark"></span> -->
+          </label></h3>
+          <h3><label for="35">
+
+            <input type="radio" name="radio9" id="35">[MLA^-1T^-1]
+            <!-- <span class="checkmark"></span> -->
+          </label></h3>
+          <h3><label for="36"> 
+            <input type="radio" name="radio9" id="36">None of these
+            <!-- <span class="checkmark"></span> -->
+          </label></h3>
+
+
+          <h2>Q12. Electric field lines intersect each other ?</h2>
+          <h3><label for="37">
+            <input type="radio" name="radio10" id="37">True
+            <!-- <span class="checkmark"></span> -->
+          </label></h3>
+          <h3><label for="38">
+
+            <input type="radio" name="radio10" id="38">False
+            <!-- <span class="checkmark"></span> -->
+          </label></h3>
+          <h3><label for="39">
+
+            <input type="radio" name="radio10" id="39">Depend on the density of line
+            <!-- <span class="checkmark"></span> -->
+          </label></h3>
+          <h3><label for="40"> 
+            <input type="radio" name="radio10" id="40">None of these
+            <!-- <span class="checkmark"></span> -->
+          </label></h3>
+
+          <h2>Q13. Which of the following statement is correct? The electric field at a point is ?</h2>
+          <h3><label for="41">
+            <input type="radio" name="radio11" id="41">always continuous
+            <!-- <span class="checkmark"></span> -->
+          </label></h3>
+          <h3><label for="42">
+
+            <input type="radio" name="radio11" id="42">continuous if there is a charge at that point
+            <!-- <span class="checkmark"></span> -->
+          </label></h3>
+          <h3><label for="43">
+
+            <input type="radio" name="radio11" id="43">discontinuous only if there is a negative charge at that point
+            <!-- <span class="checkmark"></span> -->
+          </label></h3>
+          <h3><label for="44"> 
+            <input type="radio" name="radio11" id="44">discontinuous if there is a charge at that point
+            <!-- <span class="checkmark"></span> -->
+          </label></h3>
+
+          <h2>Q14. Gauss’s law will be invalid if?</h2>
+          <h3><label for="45">
+            <input type="radio"  name="radio12" id="45">there is magnetic monopole
+            <!-- <span class="checkmark"></span> -->
+          </label></h3>
+          <h3><label for="46"> 
+
+            <input type="radio" name="radio12" id="46">the inverse square law is not exactly true
+            <!-- <span class="checkmark"></span> -->
+          </label></h3>
+          <h3><label for="47">
+
+            <input type="radio" name="radio12" id="47">the velocity of light is not a universal constant
+            <!-- <span class="checkmark"></span> -->
+          </label></h3>
+          <h3><label for="48"> 
+            <input type="radio" name="radio12" id="48">none of these
+            <!-- <span class="checkmark"></span> -->
+          </label></h3>
+
+          <h2>Q15. Force per unit charge is known as ?</h2>
+          <h3><label for="49">
+            <input type="radio"  name="radio13" id="49">Electric potential
+            <!-- <span class="checkmark"></span> -->
+          </label></h3>
+          <h3><label for="50">
+
+            <input type="radio" name="radio13" id="50">Electric flux
+            <!-- <span class="checkmark"></span> -->
+          </label></h3>
+          <h3><label for="51">
+
+            <input type="radio" name="radio13" id="51">Electric field
+            <!-- <span class="checkmark"></span> -->
+          </label></h3>
+          <h3><label for="52">
+            <input type="radio" name="radio13" id="52">none of these
+            <!-- <span class="checkmark"></span> -->
+          </label></h3><br><hr>
+
+
+
+<!-- 
+
+        <label for="country">Continent <span>*</span></label>
+        <select name="" id="">
+            <option value="Asia">Asia</option>
+            <option value="Europe">Europe</option>
+            <option value="Antartica">Antartica</option>
+            <option value="South Africa">South Africa</option>
+            <option value="Australia">Australia</option>
+            <option value="North America">North America</option>
+            <option value="South America">South America</option>
+        </select>
+        <label for="food">Food items <span>*</span></label>
+        <input type="text" name="" id="" placeholder="food you like most" required>
+        <label for="habit">Habits <span>*</span></label>
+        <input type="text" name="" id="" placeholder="one habit that u like most (about yourself)" required>
+        <label for="">Work <span>*</span></label>
+        <input type="text" name="" id="" placeholder="Work done by you (before 40)" required>
+        <label for="num">Books(read by u) <span>*</span></label>
+        <input type="number" name="" id=""placeholder="In a digit" required>
+        <label for="">Role model <span>*</span></label>
+        <input type="text" name="" id=""  required>
+        <label for="text">Feedback</label>
+       <textarea name="" id="" cols="30" rows="10" placeholder="feedback"></textarea>
+       <input type="submit" value="submit">
+       
+        <br><br> -->
+    </form>
+    
+    <button onclick="window.print()">print this page</button>
+    <!-- <button onclick="document.getElementById('demo').innerHTML=Date()">Time</button> -->
+   
+    <script>
+        window.alert("INSTRUCTIONS : you have given 15 multiple choice question (for correct answer = +4 and for wrong = -1). Time Given 15 min . ALL THE BEST !😃 ")
+        document.getElementById('demo').innerHTML=Date();
+    </script>
+</div>
+</body>
+</html>
